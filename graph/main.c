@@ -11,7 +11,8 @@ int main(){
         insertArc(v,w,G);
     }
     
-    printGraph(G);
+    StartDFS(G,0);
+    StartBFS(G,0);
     destroyGraph(G);
 }   
 
